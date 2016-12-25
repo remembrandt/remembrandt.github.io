@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0; border: 0; outline: 0; box-sizing: border-box; }
-body { padding: 50px; background-color: #222; font-family: Arial; font-size: 14px; color: #ccc; }
+body { padding: 50px; background-color: transparent; font-family: Arial; font-size: 14px; color: #ccc; }
 ul { list-style-type: none; }
 
 #skills {
