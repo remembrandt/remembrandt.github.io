@@ -101,7 +101,7 @@ a:hover {
   border: none;
   outline: none;
   color: #eeeeee;
-  background-color: #333333;
+  background-color: transparent;
   font-family: 'Roboto Mono', monospace;
 }
 
