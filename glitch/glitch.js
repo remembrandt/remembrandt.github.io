@@ -4,7 +4,7 @@
 // Color constants
 //
 var YELLOW = '#ffc107';
-var GRAY = 'transparent';
+var GRAY = '#333333';
 var WHITE = '#ffffff';
 var PINK = '#e91e63';
 var GREEN = '#cddc39';
