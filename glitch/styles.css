@@ -15,7 +15,7 @@ a:hover {
 
 /* Layout component */
 .layout {
-  background-color: #cddc39;
+  background-color: transparent;
   font-family: 'Roboto Mono', monospace;
   height: 100vh;
 }
