@@ -152,5 +152,5 @@ a:hover {
   background: #ffc107;
 }
 ::-webkit-scrollbar-track {
-  background: #444;
+ /* background: #444;*/
 }
