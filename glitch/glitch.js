@@ -167,7 +167,7 @@ var Visualizer = {
         width: c.width,
         height: c.height,
         style: {
-          border-radius: '200px' '100px' '100px' '200px',
+          
           width: '100%',
           height: c.height,
         },
