@@ -15,7 +15,7 @@
       <p>This is a demo of a basic convolutional neural network on the CIFAR-10 dataset. The model based on VGGNet consists of 6 convolution layers with leaky ReLU activation units, 3 max-pooling layers with dropout, and 2 fully-connected dense layers, with final softmax for classification into 10 classes. Offline test accuracy of this simple model was around 85%, trained without any image augmentation. The architecture and weights of the model were serialized from a trained <a href="http://keras.io" target="_blank">Keras</a> model into a JSON file, which is then used to run the neural network <strong><em>in your browser</em></strong>, on-the-fly with the loaded sample images (prediction isn't called until sample images are loaded). Five sample images are randomly loaded per button-click below. This demo utilizes Web Workers to run the neural networks.</p>
     </div>-->
     <div class="button-wrapper">
-      <div class="button" onClick="loadSamples()">другие изображения</div>
+      <div class="button" onClick="loadSamples()">поменять изображения</div>
     </div>
     <div class="samples">
       <div class="sample">
