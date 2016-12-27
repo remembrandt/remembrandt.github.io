@@ -7,7 +7,7 @@ var YELLOW = '#ffc107';
 var GRAY = '#fff';
 var WHITE = '#ffffff';
 var PINK = '#e91e63';
-var GREEN = '#cddc39';
+var GREEN = '#268bff';
 
 //
 // Layout component
