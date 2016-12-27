@@ -28,7 +28,7 @@ body { overflow-y: scroll; }
 .jasmine_html-reporter .exceptions { color: #fff; float: right; margin-top: 5px; margin-right: 5px; }
 .jasmine_html-reporter .bar { line-height: 28px; font-size: 14px; display: block; color: #eee; }
 .jasmine_html-reporter .bar.failed { background-color: #ca3a11; }
-.jasmine_html-reporter .bar.passed { background-color: #007069; }
+.jasmine_html-reporter .bar.passed { background-color: rgba(0, 175, 222, 0.19); color: #000; }
 .jasmine_html-reporter .bar.skipped { background-color: #bababa; }
 .jasmine_html-reporter .bar.errored { background-color: #ca3a11; }
 .jasmine_html-reporter .bar.menu { background-color: #fff; color: #aaa; }
