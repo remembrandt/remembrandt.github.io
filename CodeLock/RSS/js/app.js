@@ -10,7 +10,7 @@
 var allFeeds = [
     {
         name: '][абр',
-        url: 'https://habrahabr.ru/feed/'
+        url: 'https://habrahabr.ru/rss/main/'
     }, {
         name: '][АкЕр',
         url: 'https://xakep.ru/feed/'
