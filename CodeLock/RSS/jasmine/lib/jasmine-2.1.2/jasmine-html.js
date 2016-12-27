@@ -149,7 +149,7 @@ jasmineRequire.HtmlReporter = function(j$) {
       var alert = find('.alert');
 
       alert.appendChild(createDom('span', { className: 'exceptions' },
-        createDom('label', { className: 'label', 'for': 'raise-exceptions' }, 'raise exceptions'),
+        createDom('label', { className: 'label', 'for': 'raise-exceptions' }, 'поднять исключения'),
         createDom('input', {
           className: 'raise',
           id: 'raise-exceptions',
