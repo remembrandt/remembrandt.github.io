@@ -239,6 +239,7 @@ var Editor = {
 // Library with examples
 //
 const EXAMPLES = [
+  { f: '(t*((t>>9|t>>13)&25&t>>6))'},
   { f: 't*(42&t>>10)'},
   { f: 't>>6&1&&t>>5||-t>>4'},
   { f: '(t*5&t>>7)|(t*3&t>>10)'},
