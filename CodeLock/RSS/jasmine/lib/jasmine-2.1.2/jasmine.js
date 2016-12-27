@@ -572,7 +572,7 @@ getJasmineRequireObj().Env = function(j$) {
     var topSuite = new j$.Suite({
       env: this,
       id: getNextSuiteId(),
-      description: 'Jasmine__TopLevel__Suite',
+      description: 'TopLevel__Suite',
       queueRunner: queueRunnerFactory,
       onStart: function(suite) {
         reporter.suiteStarted(suite.result);
