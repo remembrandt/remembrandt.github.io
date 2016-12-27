@@ -55,11 +55,13 @@ h2 {
     position: absolute;
     top: 3.5em;
     padding: 1em;
-    background: #4caf50;
+    background: #cff0f9;
     height: 100%;
     width: 10em;
     transform: translate3d(0, 0, 0);
     transition: transform 0.2s;
+    border-radius: 20px;
+    z-index: 0;
 }
 
 .slide-menu ul {
