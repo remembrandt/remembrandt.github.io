@@ -12,7 +12,7 @@ var allFeeds = [
         name: 'Udacity Blog',
         url: 'http://blog.udacity.com/feed'
     }, {
-        name: 'CSS Tricks',
+        name: '][АкЕр',
         url: 'https://xakep.ru/feed/'
     }, {
         name: 'HTML5 Rocks',
