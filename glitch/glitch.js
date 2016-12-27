@@ -532,5 +532,5 @@ Module['onRuntimeInitialized'] = function() {
     }
   };
 
-  m.mount(document.body, m(Layout, {tab: m.prop('editor'), glitch: glitch}));
+  m.mount(document.body, m(Layout, {tab: m.prop('library'), glitch: glitch}));
 };
