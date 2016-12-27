@@ -36,24 +36,24 @@ var Layout = {
   }
 };
 
-var Links = {
-  view: () =>
-    m('.social-links',
-      m('a[href=http://naivesound.com/]', 'about'),
-      m.trust('&nbsp;~&nbsp'),
-      m('a[href=http://twitter.com/naive_sound]', 'follow'),
-      m.trust('&nbsp;~&nbsp'),
-      m('a[href=https://github.com/naivesound/glitch]', 'github'))
-};
+//var Links = {
+//  view: () =>
+//    m('.social-links',
+//      m('a[href=http://naivesound.com/]', 'about'),
+//      m.trust('&nbsp;~&nbsp'),
+//      m('a[href=http://twitter.com/naive_sound]', 'follow'),
+//      m.trust('&nbsp;~&nbsp'),
+ //     m('a[href=https://github.com/naivesound/glitch]', 'github'))
+//};
 
-var Copyright = {
-  view: () =>
-    m('.copyright',
-      'Made with ',
-      m('i.material-icons', {style:{color: PINK, fontSize: 'inherit'}}, 'favorite'),
-      ' at ',
-      m('a[href=http://naivesound.com/]', 'NaiveSound'))
-};
+//var Copyright = {
+//  view: () =>
+ //   m('.copyright',
+ //     'Made with ',
+ //     m('i.material-icons', {style:{color: PINK, fontSize: 'inherit'}}, 'favorite'),
+ //     ' at ',
+ //     m('a[href=http://naivesound.com/]', 'NaiveSound'))
+//};
 
 //
 // App window
