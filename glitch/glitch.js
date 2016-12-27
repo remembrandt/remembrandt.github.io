@@ -195,10 +195,13 @@ var Toolbar = {
           onclick: () => args.glitch.stop()}) :
         m(IconButton, {icon: 'play_arrow', active: true, title: 'play',
           onclick: () => args.glitch.play()})),
-      m(IconButton, {icon: 'code', active: (args.tab() == 'editor'), title: 'edit',
-        onclick: () => args.tab('editor')}),
+      
       m(IconButton, {icon: 'queue_music', active: (args.tab() == 'library'), title: 'examples',
         onclick: () => args.tab('library')}),
+      
+      m(IconButton, {icon: 'code', active: (args.tab() == 'editor'), title: 'edit',
+        onclick: () => args.tab('editor')}),
+      
       m(IconButton, {icon: 'help_outline', active: (args.tab() == 'help'), title: 'help',
         onclick: () => args.tab('help')}),
       m('div', {style: {flex: 1}}),
