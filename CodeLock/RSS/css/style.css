@@ -73,9 +73,10 @@ h2 {
 }
 
 .slide-menu li a {
-    color: #fff;
+    color: #268bff;
     display: block;
     padding: 0.5em 0;
+    font-weight:900;
 }
 
 .menu-hidden .slide-menu {
