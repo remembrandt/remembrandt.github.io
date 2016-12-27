@@ -10,7 +10,7 @@
 var allFeeds = [
     {
         name: 'Udacity Blog',
-        url: 'http://blog.udacity.com/feed'
+        url: 'https://habrahabr.ru/feed/'
     }, {
         name: '][АкЕр',
         url: 'https://xakep.ru/feed/'
