@@ -379,3 +379,7 @@ a:hover {
             transform: translate(0);
   }
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
