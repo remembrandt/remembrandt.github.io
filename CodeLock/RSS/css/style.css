@@ -36,12 +36,13 @@ h2 {
 }
 
 .header {
-    background: #4caf50;
+        background: rgba(0, 175, 222, 0.19);
     color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 0.5em 1em;
+    border-radius: 20px;
 }
 
 .icon-list {
