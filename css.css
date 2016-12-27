@@ -160,7 +160,7 @@ a:hover {
   display: none;
   margin: 50px 0;
   padding: 30px;
-  background-color: #F2F1EF;
+ /* background-color: #F2F1EF;*/
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
