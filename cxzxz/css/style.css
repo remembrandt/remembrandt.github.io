@@ -1,0 +1,28 @@
+.panel{
+  width: 200px;
+  height: 200px;
+}
+
+#panel2{
+  left: 300px
+}
+#panel3{
+  left: 550px
+}
+
+.resizable{ 
+  overflow: hidden;
+  resize: both
+}
+
+.draggable{
+  position: absolute;
+  z-index: 100
+}
+.draggable-handler{
+  cursor: pointer
+}
+.dragging{
+  cursor: move;
+  z-index: 200 !important
+}
