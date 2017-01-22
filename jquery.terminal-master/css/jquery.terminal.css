@@ -137,7 +137,8 @@
     /*font-family: FreeMono, monospace; this don't work on Android */
     color: #aaa;
     background-color: transparent;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight:900;
     line-height: 14px;
 }
 .terminal-output > div {
