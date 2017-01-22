@@ -3,16 +3,16 @@
   height: 200px;
 }
 #panel1{
-  left: 25px;
+  left: 55px;
     top: 30px;
 }
 #panel2{
-  left: 280px;
+  left: 290px;
     top: 30px;
 }
 #panel3{
   top: 30px;
-  left: 530px;
+  left: 540px;
 }
 
 .resizable{ 
