@@ -3,6 +3,11 @@
   height: 200px;
   border:0px;
 }
+.panel-primary {
+     border-color: transparent;
+}
+
+
 #panel1{
   left: 55px;
     top: 30px;
