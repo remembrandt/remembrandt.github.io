@@ -135,7 +135,7 @@
 .terminal, .cmd {
     font-family: monospace;
     /*font-family: FreeMono, monospace; this don't work on Android */
-    color: #aaa;
+    color: #4CAF50;
     background-color: transparent;
     font-size: 13px;
     font-weight:900;
