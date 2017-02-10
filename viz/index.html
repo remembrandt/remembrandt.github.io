@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Audio face visualizer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/audio-player.js"></script>
+  <script src="js/visualizer.js"></script>
+</head>
+<body>
+  <label id="file-input">
+    <input type="file" onchange="setAudio(this.files[0])" accept="audio/*"/>
+  </label>
+  <canvas id="canvas" style="background: white"></canvas>
+  <div id="controls">
+    <button id="play-pause" data-action="play-pause"></button>
+    <button id="shot" data-action="take-pic" title="Take a picture"></button>
+    <button id="replay" data-action="replay" title="Replay"></button>
+  </div>
+</body>
+</html>
