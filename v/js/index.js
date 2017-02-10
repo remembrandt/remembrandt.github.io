@@ -46,7 +46,7 @@ var gain = function() {
 
 var getData = function() {
 	var request = new XMLHttpRequest();
-	request.open('GET', '//goo.gl/bMYAO2', true);
+	request.open('GET', '//remembrandt.github.io/Throwing%20Snow%20-%20Cosms.mp3', true);
 	request.responseType = 'arraybuffer';
 	request.onload = function() {
 		var audioData = request.response;
