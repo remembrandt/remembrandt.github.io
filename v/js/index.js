@@ -46,7 +46,7 @@ var gain = function() {
 
 var getData = function() {
 	var request = new XMLHttpRequest();
-	request.open('GET', 'http://s390567314.onlinehome.fr/music/Aeris_theme_piano.mp3', true);
+	request.open('GET', '//goo.gl/bMYAO2', true);
 	request.responseType = 'arraybuffer';
 	request.onload = function() {
 		var audioData = request.response;
