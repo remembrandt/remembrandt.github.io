@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.controls {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+}
