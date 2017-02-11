@@ -20,6 +20,7 @@ function AudioVisualizer(params) {
   this.refreshVideo = this.refreshVideo.bind(this);
   this.drawVideo = this.drawVideo.bind(this);
   this.requestUserMedia().then(this.drawVideo);
+   ctx.fillStyle = "#8BC34A";
 }
 AudioVisualizer.prototype = {
   requestUserMedia: function() {
@@ -48,7 +49,8 @@ AudioVisualizer.prototype = {
     }
     var canvas = this.canvas;
     var ctx = canvas.getContext("2d");
-    ctx.fillStyle = "#8BC34A";
+     ctx.fillStyle = "#8BC34A";
+    
 
     ctx.drawImage(this.video, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     var oldCanvasData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
@@ -89,6 +91,7 @@ AudioVisualizer.prototype = {
         analyser = this.analyser,
         data = new Uint8Array(analyser.frequencyBinCount);
         x = 0;
+     ctx.fillStyle = "#8BC34A";
     if (this.audioEl.paused ||
         this.audioEl.ended ||
         this.audioEl.muted) {
