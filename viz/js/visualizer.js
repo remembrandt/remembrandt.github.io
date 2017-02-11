@@ -67,7 +67,7 @@ AudioVisualizer.prototype = {
 
       // Gather rgba for the current pixel
       var rgba = [data[i], data[i+1], data[i+2], data[i+3]];
-      var avg = (rgba[0] + rgba[4] + rgba[2]) / 3;
+      var avg = (rgba[0] + rgba[1] + rgba[2]) / 3;
       if (avg < averageLighting) {
         ctx.clearRect(x,y,1,1);
       }
@@ -88,7 +88,6 @@ AudioVisualizer.prototype = {
         analyser = this.analyser,
         data = new Uint8Array(analyser.frequencyBinCount);
         x = 0;
-     ctx.fillStyle = "#FFEB3B";
     if (this.audioEl.paused ||
         this.audioEl.ended ||
         this.audioEl.muted) {
