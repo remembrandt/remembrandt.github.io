@@ -88,7 +88,7 @@ AudioVisualizer.prototype = {
         analyser = this.analyser,
         data = new Uint8Array(analyser.frequencyBinCount);
         x = 0;
-     ctx.fillStyle = "yellow";
+     ctx.fillStyle = "#FFEB3B";
     if (this.audioEl.paused ||
         this.audioEl.ended ||
         this.audioEl.muted) {
