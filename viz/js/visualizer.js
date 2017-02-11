@@ -58,7 +58,7 @@ AudioVisualizer.prototype = {
   clipCanvas: function(oldCanvasData, averageLighting) {
     averageLighting = averageLighting || 58.5;
     var canvas = this.canvas;
-    var ctx = canvas.getContext("3d");
+    var ctx = canvas.getContext("2d");
     var data = oldCanvasData;
     var x = 0;
     var y = 0;
