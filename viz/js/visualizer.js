@@ -67,13 +67,14 @@ AudioVisualizer.prototype = {
     var y = 0;
     for (var i = 0; i < data.length; i++) {
       if (i % 4 !== 0) continue;
-       ctx.fillStyle = "#8BC34A";
+       
 
       // Gather rgba for the current pixel
       var rgba = [data[i], data[i+1], data[i+2], data[i+3]];
       var avg = (rgba[0] + rgba[1] + rgba[2]) / 3;
       if (avg < averageLighting) {
         ctx.clearRect(x,y,1,1);
+         ctx.fillStyle = "#8BC34A";
       }
 
       x++;
