@@ -48,6 +48,7 @@ AudioVisualizer.prototype = {
     }
     var canvas = this.canvas;
     var ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#8BC34A";
 
     ctx.drawImage(this.video, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     var oldCanvasData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
