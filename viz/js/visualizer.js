@@ -47,7 +47,7 @@ AudioVisualizer.prototype = {
       cancelAnimationFrame(this.animationFrame);
     }
     var canvas = this.canvas;
-    var ctx = canvas.getContext("3d");
+    var ctx = canvas.getContext("2d");
 
     ctx.drawImage(this.video, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     var oldCanvasData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
@@ -113,3 +113,22 @@ AudioVisualizer.prototype = {
     window.open(uri, "_blank");
   }
 };
+
+
+  function DrawBrick(x, y) {
+    // Отрисовка основного цвета кирпича
+    ctx.fillStyle = '#FFA500';
+    ctx.fillRect(x, y, cellSize/2, cellSize/2);
+    // Отрисовка теней
+    ctx.fillStyle = '#CD8500';
+    ctx.fillRect(x, y, cellSize/2, cellSize/16);
+    ctx.fillRect(x, y+cellSize/4, cellSize/2, cellSize/16);
+    ctx.fillRect(x+cellSize/4, y, cellSize/16, cellSize/4);
+    ctx.fillRect(x+cellSize/16, y+cellSize/4, cellSize/16, cellSize/4);
+    // Отрисовка раствора между кирпичами
+    ctx.fillStyle = '#D3D3D3';
+    ctx.fillRect(x, y+cellSize/4-cellSize/16, cellSize/2, cellSize/16);
+    ctx.fillRect(x, y+cellSize/2-cellSize/16, cellSize/2, cellSize/16);
+    ctx.fillRect(x+cellSize/4-cellSize/16, y, cellSize/16, cellSize/4);
+    ctx.fillRect(x, y+cellSize/4-cellSize/16, cellSize/16, cellSize/4);
+  }
