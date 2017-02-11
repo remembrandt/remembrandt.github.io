@@ -40,7 +40,7 @@ body:not(.playing) #controls {
   opacity: 0;
 }
 #file-input::after {
-  content: "Pick an audio file";
+  content: "Выбрать аудио файл";
   display: block;
   position: absolute;
   left: 20px;
