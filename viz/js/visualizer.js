@@ -75,7 +75,7 @@ AudioVisualizer.prototype = {
       if (avg < averageLighting) {
         ctx.fillRect(x,y,1,1);
          
-          ctx.fillStyle = "#8BC34A";
+          ctx.fillStyle = "rgba(255, 235, 59, 0.51)";
         
       }
 
