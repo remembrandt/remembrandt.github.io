@@ -74,7 +74,7 @@ AudioVisualizer.prototype = {
       var avg = (rgba[0] + rgba[1] + rgba[2]) / 3;
       if (avg < averageLighting) {
         ctx.strokeRect(x,y,1,1);
-         ctx.fillStyle = "#8BC34A";
+        
       }
 
       x++;
