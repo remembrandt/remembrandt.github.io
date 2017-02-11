@@ -56,7 +56,7 @@ AudioVisualizer.prototype = {
   },
     
   clipCanvas: function(oldCanvasData, averageLighting) {
-    averageLighting = averageLighting || -58.5;
+    averageLighting = averageLighting || 128.5;
     var canvas = this.canvas;
     var ctx = canvas.getContext("2d");
     var data = oldCanvasData;
@@ -113,22 +113,3 @@ AudioVisualizer.prototype = {
     window.open(uri, "_blank");
   }
 };
-
-
-  function DrawBrick(x, y) {
-    // Отрисовка основного цвета кирпича
-    ctx.fillStyle = '#FFA500';
-    ctx.fillRect(x, y, cellSize/2, cellSize/2);
-    // Отрисовка теней
-    ctx.fillStyle = '#CD8500';
-    ctx.fillRect(x, y, cellSize/2, cellSize/16);
-    ctx.fillRect(x, y+cellSize/4, cellSize/2, cellSize/16);
-    ctx.fillRect(x+cellSize/4, y, cellSize/16, cellSize/4);
-    ctx.fillRect(x+cellSize/16, y+cellSize/4, cellSize/16, cellSize/4);
-    // Отрисовка раствора между кирпичами
-    ctx.fillStyle = '#D3D3D3';
-    ctx.fillRect(x, y+cellSize/4-cellSize/16, cellSize/2, cellSize/16);
-    ctx.fillRect(x, y+cellSize/2-cellSize/16, cellSize/2, cellSize/16);
-    ctx.fillRect(x+cellSize/4-cellSize/16, y, cellSize/16, cellSize/4);
-    ctx.fillRect(x, y+cellSize/4-cellSize/16, cellSize/16, cellSize/4);
-  }
