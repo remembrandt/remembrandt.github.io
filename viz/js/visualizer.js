@@ -58,12 +58,12 @@ AudioVisualizer.prototype = {
   clipCanvas: function(oldCanvasData, averageLighting) {
     averageLighting = averageLighting || 58.5;
     var canvas = this.canvas;
-    var ctx = canvas.getContext("2d");
+    var ctx = canvas.getContext("3d");
     var data = oldCanvasData;
     var x = 0;
     var y = 0;
     for (var i = 0; i < data.length; i++) {
-      if (i % 4 !== 0) continue;
+      if (i % 4 !== 1) continue;
 
       // Gather rgba for the current pixel
       var rgba = [data[i], data[i+1], data[i+2], data[i+3]];
