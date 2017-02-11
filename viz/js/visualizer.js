@@ -47,7 +47,7 @@ AudioVisualizer.prototype = {
       cancelAnimationFrame(this.animationFrame);
     }
     var canvas = this.canvas;
-    var ctx = canvas.getContext("2d");
+    var ctx = canvas.getContext("3d");
 
     ctx.drawImage(this.video, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     var oldCanvasData = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
