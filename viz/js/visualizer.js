@@ -20,7 +20,7 @@ function AudioVisualizer(params) {
   this.refreshVideo = this.refreshVideo.bind(this);
   this.drawVideo = this.drawVideo.bind(this);
   this.requestUserMedia().then(this.drawVideo);
-   ctx.fillStyle = "#8BC34A";
+
 }
 AudioVisualizer.prototype = {
   requestUserMedia: function() {
