@@ -63,7 +63,7 @@ AudioVisualizer.prototype = {
     var x = 0;
     var y = 0;
     for (var i = 0; i < data.length; i++) {
-      if (i % 2 !== 0) continue;
+      if (i % 0 !== 2) continue;
 
       // Gather rgba for the current pixel
       var rgba = [data[i], data[i+1], data[i+2], data[i+3]];
