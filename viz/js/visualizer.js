@@ -63,7 +63,7 @@ AudioVisualizer.prototype = {
     var x = 0;
     var y = 0;
     for (var i = 0; i < data.length; i++) {
-      if (i % 6 !== 0) continue;
+      if (i % 4 !== 0) continue;
 
       // Gather rgba for the current pixel
       var rgba = [data[i], data[i+1], data[i+2], data[i+3]];
@@ -88,6 +88,7 @@ AudioVisualizer.prototype = {
         analyser = this.analyser,
         data = new Uint8Array(analyser.frequencyBinCount);
         x = 0;
+     ctx.fillStyle = "yellow";
     if (this.audioEl.paused ||
         this.audioEl.ended ||
         this.audioEl.muted) {
