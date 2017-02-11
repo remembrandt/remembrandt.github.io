@@ -96,7 +96,7 @@ AudioVisualizer.prototype = {
   
     analyser.getByteFrequencyData(data);
 
-    ctx.fillStyle = "rgba(218, 0, 255, 0.59)";
+    ctx.fillStyle = "#000";
 
     for (var i = 0; i < data.length; i++) {
       var frequency = data[i];
